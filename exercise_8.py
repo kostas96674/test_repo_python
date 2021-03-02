@@ -34,3 +34,4 @@ if __name__ == '__main__':
     f = open(f"{filename}.txt", "r")
     user_coins = json.loads(f.read())
     find_crypto_wealth(user_coins)
+    f.close()
